@@ -4,7 +4,7 @@
 
 Synapse brings messaging, a shared whiteboard, screen sharing, file comparison, cloud storage and tool updates into one Windows application. Users can create or join a session and move between these capabilities through a shared dashboard.
 
-This is a **collaborative college software engineering project**. The complete application was developed by the project team. My contribution, **Satyadev Subudhi**, focused on the **Chat/Content module's MVVM application logic, state management, integration and unit testing**.
+This is a **collaborative college software engineering project**. The complete application was developed by the project team. My contribution focused on the **Chat/Content module's MVVM application logic, state management, integration and unit testing**.
 
 [Original team repository](https://github.com/GroupProjectSE2024/SoftwareEngineering2024) · [My portfolio](https://satyadev-subudhi-profile.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/satyadev-subudhi-365325244/)
 
@@ -150,7 +150,6 @@ dotnet run --project .\UXModule\UXModule.csproj
 - **Cloud and sign-in require configuration.** Check the OAuth setup and cloud endpoints used by the application. Availability of the original hosted services has not been verified.
 - **Packaging is separate from running the desktop application.** The solution also includes a Windows packaging project, which may require additional Visual Studio components and signing configuration.
 
-These instructions are based on source inspection. A clean-machine build, end-to-end session and current hosted-service availability have not been verified for this documentation.
 
 ## Running tests
 
@@ -161,14 +160,8 @@ dotnet test .\TestProject\TestProject.csproj
 dotnet test .\TestCases\TestCases.csproj
 ```
 
-Some tests exercise networking, Windows UI or module integrations and may require corresponding runtime setup. No passing-test count or coverage percentage is claimed here.
-
 ## Project history and attribution
 
 The original application belongs to the collaborative [SoftwareEngineering2024 team project](https://github.com/GroupProjectSE2024/SoftwareEngineering2024). Contributor history and existing author attribution should remain intact.
 
 This README describes the `master` source snapshot at commit [`7eccd5c`](https://github.com/GroupProjectSE2024/SoftwareEngineering2024/commit/7eccd5cd443679e10c70f7276907954c962497bb). Its tip is newer than the inspected `Package` and dry-run branches; it is the basis for this documentation, not a claim of a verified release.
-
-My portfolio attribution covers my Chat/Content contribution and does not imply sole authorship of Synapse or ownership of the team's other modules.
-
-No repository-level license file was present in the reviewed snapshot. This README does not assign a new license to the team's code.
